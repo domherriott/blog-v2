@@ -1,1 +1,78 @@
-hello world!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dominic Herriott | CV</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="headshot">
+        <div id="throbber" class="throbber"></div>
+        <img id="profileImg" src="headshot.jpg" alt="Dominic Herriott headshot" onload="removeThrobber()" hidden />
+      </div>
+      <div class="info">
+        <h1>Dom Herriott</h1>
+        <p>Lead Data/ML Engineer</p>
+        <div class="links">
+          <a href="#">GitHub</a> | <a href="#">LinkedIn</a> | <a href="#">CV</a>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <h2>Profile</h2>
+      <p>Lead Data/ML engineer with 
+  <span id="experienceYears">X</span>years experience building robust analytics/AI applications...
+      Proven ability to manage teams, solve complex problems, and drive innovation.</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li><strong>Data Engineering:</strong> Pipelines, SQL, PySpark, Pandas</li>
+        <li><strong>Software:</strong> Python, SQL, Bash (Go, JavaScript - Beginner)</li>
+        <li><strong>DevOps:</strong> Git, Docker, Kubernetes, CI/CD</li>
+        <li><strong>Cloud:</strong> AWS, Azure, GCP</li>
+        <li><strong>Machine Learning:</strong> Feature engineering, deployment</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
+      <ul>
+        <li>AWS Certified Developer / Practitioner</li>
+        <li>Dataiku ML & MLOps Practitioner</li>
+        <li>Azure Cloud Fundamentals</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <div>
+        <h3>Lead Data Engineer | Deloitte <span>(2018–Present)</span></h3>
+        <p>Lead in design and development of high-performance data platforms across sectors...
+        Built systems ingesting 100+ sources; mentored junior engineers; set engineering standards.</p>
+      </div>
+      <div>
+        <h3>Researcher (Intern) | Dyson <span>(2017)</span></h3>
+        <p>Statistical research for future products; delivered data-driven feasibility recommendations.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p><strong>University of Oxford</strong> – MEng Materials Science</p>
+      <p><strong>Westcliff High School for Boys</strong> – A Levels: A*s in Physics, Chemistry, Maths, Further Maths</p>
+    </section>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
