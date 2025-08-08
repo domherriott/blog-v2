@@ -6,28 +6,59 @@
   <title>Dominic Herriott | CV</title>
   <link rel="stylesheet" href="styles.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE6aI1zC7lFQ5hYkJkYyQ5K5H0f1ZXp8C2Hk9P3X6FfZ8E2ig=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
 </head>
+
+
 <body>
   <div class="container">
     <header>
       <div class="headshot">
         <div id="throbber" class="throbber"></div>
-        <img id="profileImg" src="headshot.jpg" alt="Dominic Herriott headshot" onload="removeThrobber()" hidden />
+        <img id="profileImg" src="https://avatars.githubusercontent.com/u/24848342?s=400&u=3883c6cf42b16f4e1c3f74b844c951fd6630baf6&v=4" alt="Dominic Herriott headshot" onload="removeThrobber()" hidden />
       </div>
       <div class="info">
         <h1>Dom Herriott</h1>
-        <p>Lead Data/ML Engineer</p>
-        <div class="links">
-          <a href="#">GitHub</a> | <a href="#">LinkedIn</a> | <a href="#">CV</a>
-        </div>
-      </div>
+        <p>Data/ML Engineer</p>
+
+      <div class="links">
+
+        <a href="https://github.com/domherriott" target="_blank" title="GitHub">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 0 0 7.86 10.93c.58.1.79-.25.79-.56v-2.1c-3.2.7-3.87-1.54-3.87-1.54-.53-1.36-1.3-1.72-1.3-1.72-1.06-.73.08-.72.08-.72 1.17.08 1.78 1.2 1.78 1.2 1.04 1.78 2.72 1.27 3.38.97.1-.75.41-1.27.74-1.56-2.55-.29-5.23-1.27-5.23-5.65 0-1.25.45-2.27 1.19-3.07-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.17a11 11 0 0 1 5.8 0c2.2-1.48 3.17-1.17 3.17-1.17.64 1.58.24 2.75.12 3.04.74.8 1.18 1.82 1.18 3.07 0 4.39-2.69 5.35-5.25 5.63.42.37.8 1.1.8 2.22v3.3c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z"/>
+        </svg>
+        GitHub
+        </a>
+
+        <a href="https://linkedin.com/in/dominic-herriott" target="_blank" title="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M20.45 20.45h-3.554v-5.58c0-1.332-.027-3.045-1.857-3.045-1.86 0-2.145 1.45-2.145 2.948v5.677H9.342V9h3.414v1.56h.048c.476-.9 1.637-1.857 3.37-1.857 3.6 0 4.268 2.37 4.268 5.455v6.292zM5.337 7.433a2.062 2.062 0 1 1 0-4.125 2.062 2.062 0 0 1 0 4.125zM7.116 20.45H3.558V9h3.558v11.45zM22.225 0H1.771C.792 0 0 .774 0 1.73v20.54C0 23.226.792 24 1.771 24h20.454C23.206 24 24 23.226 24 22.27V1.73C24 .774 23.206 0 22.225 0z"/>
+        </svg>
+        LinkedIn
+        </a>
+
+        <a href="DominicHerriott_CV.pdf" target="_blank" title="CV (PDF)">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M6 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6H6z"/>
+        <path d="M14 3.5V9h5.5"/>
+        <text x="7" y="17" font-size="7" fill="currentColor">PDF</text>
+        </svg>
+        CV (PDF)
+        </a>
+    </div>
+
+    </div>
     </header>
 
     <section>
-      <h2>Profile</h2>
-      <p>Lead Data/ML engineer with 
-  <span id="experienceYears">X</span>years experience building robust analytics/AI applications...
-      Proven ability to manage teams, solve complex problems, and drive innovation.</p>
+      <p>Hi! I'm a data engineer with <span id="experienceYears">X</span> years experience
+      designing, implementing and maintaining robust analytics/AI solutions.
     </section>
 
     <section>
@@ -53,20 +84,25 @@
     <section>
       <h2>Experience</h2>
       <div>
-        <h3>Lead Data Engineer | Deloitte <span>(2018–Present)</span></h3>
-        <p>Lead in design and development of high-performance data platforms across sectors...
+        <h3> Lead Data/ML Engineer | Deloitte <span>(2018–Present)</span></h3>
+        <p>
+            <ul>
+              <li>Joined Deloitte's AI & Data consulting team as a graduate in 2018</li>
+            </ul>Lead in design and development of high-performance data platforms across sectors...
         Built systems ingesting 100+ sources; mentored junior engineers; set engineering standards.</p>
       </div>
       <div>
-        <h3>Researcher (Intern) | Dyson <span>(2017)</span></h3>
+        <h3>Research Intern | Dyson <span>(2017)</span></h3>
         <p>Statistical research for future products; delivered data-driven feasibility recommendations.</p>
       </div>
     </section>
 
     <section>
       <h2>Education</h2>
-      <p><strong>University of Oxford</strong> – MEng Materials Science</p>
-      <p><strong>Westcliff High School for Boys</strong> – A Levels: A*s in Physics, Chemistry, Maths, Further Maths</p>
+      <p><strong>University of Oxford</strong>
+          <br>MEng Materials Science</p>
+      <p><strong>Westcliff High School for Boys</strong>
+          <br>Four A*s at A-Level: <i>Physics, Chemistry, Maths, Further Maths</i></p>
     </section>
   </div>
 
